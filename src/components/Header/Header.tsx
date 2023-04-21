@@ -16,7 +16,7 @@ function MainHeader() {
             <Link to="/register">Registre-se</Link>
           </li>
           <li>
-            <Links href="/login">Login</Links>
+            <Link to="/login">Login</Link>
           </li>
           <li>
             <Links href="#">Sobre</Links>
