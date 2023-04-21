@@ -3,7 +3,7 @@ import { AutheProvider } from "./context/authProvider"
 import { ProtectedLayout } from "./components/protectedLayout"
 
 import Profile from "./pages/profile"
-import Login from "./pages/login/Login"
+import Login from "./pages/login"
 import Home from "./pages/home"
 import Register from "./pages/register"
 
