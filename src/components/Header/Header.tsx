@@ -1,8 +1,9 @@
 import React from "react";
-import { Header, HeaderList, NavBar, MainLogo, Link } from "./Style.Header";
-import projectLogo from "../../assets/images/projectLogo.svg";
+import { Header, HeaderList, NavBar, MainLogo, Links } from "./Style.Header";
+import projectLogo from "../../assets/images/projectLogo.svg"
 import { GlobalStyle } from "../../pages/Styles/General_CSS";
 import { Link } from "react-router-dom";
+
 
 function MainHeader() {
   return (
@@ -12,7 +13,7 @@ function MainHeader() {
       <NavBar>
         <HeaderList>
           <li>
-            <Link to="/">Home</Links>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/register">Registre-se</Link>
@@ -21,11 +22,12 @@ function MainHeader() {
             <Link to="/login">Login</Link>
           </li>
           <li>
-            <Link to="#">Sobre</Link>
+            <Links href="#">Sobre</Links>
           </li>
         </HeaderList>
       </NavBar>
     </Header>
+
   );
 }
 
